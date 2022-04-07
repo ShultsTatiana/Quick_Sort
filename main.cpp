@@ -1,3 +1,13 @@
+#include <iostream>
+#include <algorithm>
+#include <random>
+#include <ctime>
+#include <tuple>
+
+#include <vector>
+#include <sstream>
+using namespace std;
+
 struct Reting {
 	string login = "";		//Логин участника
 	size_t solvedTasks = 0;	//Кол-во решенных задач
